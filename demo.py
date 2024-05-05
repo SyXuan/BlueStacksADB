@@ -4,7 +4,7 @@ from bluestackadb import Utils
 print('\nRunning BlueStacks instance')
 instance = bluestackadb.BAInstance(
     target_instance='Rvc64',
-    target_package='com.playstudios.showstar',
+    target_package='com.android.package.name',
 )
 instance.run()
 

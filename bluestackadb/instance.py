@@ -4,17 +4,6 @@ import subprocess
 
 from .constants import Constants
 
-# Example file property target
-# "C:\Program Files\BlueStacks_nxt\HD-Player.exe" --instance Rvc64 --cmd launchAppWithBsx --package "com.playstudios.showstar" --source desktop_shortcut
-# "C:\Program Files\BlueStacks_nxt\HD-Player.exe" --instance Pie64_10 --cmd launchApp --package "com.playstudios.showstar" --source desktop_shortcut
-# BLUESTACKS_PATH = 'C:\\Program Files\\BlueStacks_nxt\\HD-Player.exe'
-# BLUESTACKS_INSTANCE = 'Rvc64'
-# BLUESTACKS_CMD = 'launchApp' # or launchAppWithBsx will also open the BlueStacks X
-# ANDROID_PACKAGE = 'com.playstudios.showstar'
-# ADB_PATH = 'C:\\BingSyuan\\platform-tools-latest-windows\\platform-tools\\adb.exe'
-# ADB_URL = '127.0.0.1'
-# ADB_PORT = '5555'
-
 
 class BAInstance:
     def __init__(
